@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #4B0082;
+        }
+        img {
+            border-radius: 50%;
+            float: right;
+            border: 3px solid #4B0082;
+        }
+        h2, h3 {
+            color: #4B0082;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #E6E6FA;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #4B0082;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: #6A0DAD;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Website</h1>
+        <h2>Ayisetti Raja Sree</h2>
+        <img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-cute-girl-avatar-material-png-image_4023832.jpg" alt="photo" height="200" width="200">
+        <h3>About Myself</h3>
+        <p>Currently I am pursuing my B.Tech in SASI college at Tadepalligudem.</p>
+        <h3>My Details</h3>
+        <p><b>Email:</b> rajasree.ayisetti@sasi.ac.in<br>
+           <b>Phone No:</b> +91 80xxxxxx65
+        </p>
+        <h3>Learning Languages</h3>
+        <ul>
+            <li>Node.js</li>
+            <li>React.js</li>
+            <li>MERN</li>
+        </ul>
+        <h3>Known Languages</h3>
+        <ul>
+            <li>C</li>
+            <li>Python</li>
+            <li>HTML</li>
+        </ul>
+        <h3>Interests</h3>
+        <p>To design efficient and user-friendly interfaces for coding.</p>
+        <h3>Profiles In</h3>
+        <ul>
+            <li>LinkedIn</li>
+            <li>GitHub</li>
+        </ul>
+        <h3>For GitHub Profile</h3>
+        <a href="https://github.com/rajasree-ayisetti/FSD-I" target="_blank">Click Here</a>
+        <p><b>This is my personal information.</b></p>
+    </div>
+</body>
+</html>
